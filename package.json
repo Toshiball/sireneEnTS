@@ -1,0 +1,19 @@
+{
+  "name": "sireneEnTS",
+  "version": "1.0.0",
+  "description": "Parallel writes to MongoDB using worker threads and PM2 for monitoring",
+  "scripts": {
+    "start": "ts-node main.ts"
+  },
+  "repository": {},
+  "keywords": [],
+  "author": "Sarmento",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "fs": "0.0.1-security",
+    "mongoose": "^6.0.11",
+    "pm2": "^5.3.1",
+    "ts-node": "^10.9.2"
+  }
+}

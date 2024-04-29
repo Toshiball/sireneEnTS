@@ -1,0 +1,6 @@
+{
+    "script": "worker.js",
+    "instances": "max",
+    "out_file": "./logs/workerlog.log",
+    "error_file": "./logs/error.log"
+}
